@@ -1,0 +1,50 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 18rem;
+  transition: opacity 0.5s ease-in-out; 
+ 
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
+.my-shelf-title {
+  text-align: center;
+  font-size: 36px; /* Increase the font size */
+  color: #ff6600; /* Change the text color as desired */
+  font-weight: bold; /* Add some boldness to the text */
+  text-transform: uppercase; /* Uppercase the text */
+  letter-spacing: 2px; /* Add letter spacing */
+  margin: 20px 0; /* Add some margin for spacing */
+  animation: slideIn 1s ease-in-out; /* Define the animation */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.card-entering {
+  opacity: 0;
+}
+
+.card-entered {
+  opacity: 1;
+}

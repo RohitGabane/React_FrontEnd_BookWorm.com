@@ -1,0 +1,32 @@
+/* Add animation for the entire sign-in container */
+.signin-container {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Add animation for the sign-in form */
+  .signin-form {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Define a fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Define a slide-in animation */
+  @keyframes slideIn {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

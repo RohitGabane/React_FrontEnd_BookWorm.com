@@ -1,0 +1,39 @@
+/* Responsive styles for the carousel */
+@media (max-width: 768px) {
+  .responsive-carousel {
+    /* Adjust styles for smaller screens */
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .carousel-img {
+    /* Reduce height for smaller screens */
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .responsive-carousel {
+    /* Adjust styles for medium-sized screens */
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .carousel-img {
+    /* Adjust height for medium-sized screens */
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .responsive-carousel {
+    /* Default styles for larger screens */
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .carousel-img {
+    /* Default height for larger screens */
+    max-height: 500px;
+  }
+}

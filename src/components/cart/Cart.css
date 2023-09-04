@@ -1,0 +1,176 @@
+/* .beneficiary-list-container {
+    padding: 20px;
+  }
+  
+  .section-heading {
+    color: #333;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .options-dropdown {
+    margin-right: 10px;
+  }
+  
+  .options-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .options-buttons {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; 
+  }
+  
+  .btn-rented {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .btn-build {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4500;
+  }
+
+   */
+
+
+
+   /* Add styles for the section heading */
+.section-heading {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Add styles for the buttons */
+.options-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-rented {
+  background-color: #ff6600;
+  color: white;
+}
+
+.btn-build {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Add styles for the table */
+.table-container {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add an animation for fading elements in */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add stylish styles for the section heading */
+/* Center the section heading within its container */
+.section-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+/* Add stylish styles for the section heading */
+.section-heading {
+  font-size: 32px;
+  color: #ff6600;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInUp 1s ease-in-out;
+  /* Add any other styles you like */
+}
+
+/* Add an animation for fading elements in */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Add additional styles and animations as needed */

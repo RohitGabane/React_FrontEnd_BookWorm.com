@@ -1,0 +1,42 @@
+/* Apply styles to the container */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Style for audio cards */
+  .audio-card {
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styling for card body */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  /* Style for card buttons */
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  .my-shelf-title {
+    text-align: center;
+    font-size: 36px; /* Increase the font size */
+    color: #ff6600; /* Change the text color as desired */
+    font-weight: bold; /* Add some boldness to the text */
+    text-transform: uppercase; /* Uppercase the text */
+    letter-spacing: 2px; /* Add letter spacing */
+    margin: 20px 0; /* Add some margin for spacing */
+    animation: slideIn 1s ease-in-out; /* Define the animation */
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

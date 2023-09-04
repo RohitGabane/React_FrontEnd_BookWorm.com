@@ -1,0 +1,22 @@
+/* Apply styles to the container */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Style for audio cards */
+  .audio-card {
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styling for card body */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  /* Style for card buttons */
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  /* Add more custom styles as needed */
+  
